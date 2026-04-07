@@ -35,13 +35,12 @@
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
-│  Problem  ──►  Architecture  ──►  Implementation  ──►  Scale & Secure  │
+│  Problem  ──►  Architecture  ──►  Implementation  ──►  Scale & Secure   │
 │                                                                         │
-│  I don't start with code. I start with:                                │
-│   • What does the business need?                                        │
-│   • What breaks at 10x load?                                           │
-│   • What is the security attack surface?                               │
-│   • What does the next developer need to understand this fast?         │
+│  I don't start with code. I start with:                                 │ 
+│   • Business requirements                                               │
+│   • Scalability                                                         │
+│   • Developer experience                                                │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -101,9 +100,72 @@
 
 ---
 
+## 🚀 Featured Projects
 
 
+### 🏢 HireNode — AI-Powered Hiring Platform
 
+*Production-grade, microservices-based recruitment system*
+
+* Architected **event-driven microservices** (Auth, Users, Jobs, Payment, Util) for independent scaling
+* Implemented **Apache Kafka** for async communication → eliminated tight coupling & cascading failures
+* Integrated **Gemini AI** for resume analysis, role-fit scoring, and personalized career insights
+* Designed with **serverless PostgreSQL (Neon)** for efficient connection handling in distributed systems
+* Offloaded media handling using **Cloudinary** for optimized performance
+
+**Tech:** `Next.js` `TypeScript` `PostgreSQL` `Kafka` `Redis` `Cloudinary` `GenAI`
+
+👉 [View Repository](https://github.com/21aansh06/HireNode-Platform)
+
+---
+
+### 💬 Chatify — Real-Time Scalable Chat
+
+*Production-ready messaging system with anti-spam and high-performance data handling*
+
+* Engineered **2-layer Redis rate limiting** (global + per-conversation) to prevent spam at scale
+* Built **real-time messaging** using Socket.IO with presence tracking
+* Implemented **cursor-based pagination** for efficient loading of large chat histories
+* Optimized database performance using **MongoDB indexing**
+* Designed secure **OTP-based authentication** (Twilio + Email) with JWT
+
+**Tech:** `Node.js` `Express.js` `Socket.IO` `MongoDB` `Redis` `JWT` `Cloudinary`
+
+👉 [Live Demo](https://chatify-beta-five.vercel.app/)
+
+---
+
+### 🔢 DigiQ — Smart Digital Queue System
+
+*Real-time queue management platform with QR-based access*
+
+* Designed **dynamic wait-time algorithm** based on service durations and queue position
+* Built **real-time queue updates** for seamless user experience
+* Implemented **QR-based onboarding** → zero friction for customers
+* Enabled **city-based filtering** and efficient service management for organizations
+
+**Tech:** `React.js` `Node.js` `Express.js` `MongoDB` `REST API` `Tailwind CSS`
+
+👉 [Live Demo](https://digi-q-ivory.vercel.app/)
+
+---
+
+## 🎯 Current Focus
+
+```javascript
+const aansh = {
+  building: "Production-grade microservices & real-time systems",
+  exploring: [
+    "GenAI integrations in backend systems",
+    "RAG pipelines for domain-specific intelligence",
+    "LLM-powered APIs & workflow automation"
+  ],
+  goal: "Backend / Full Stack SDE role solving real-world scalability challenges",
+  mindset: "Code aligned with business impact, scalability, and long-term maintainability."
+};
+
+```
+---
 ## 📊 GitHub Stats
 <div align="center">
 
