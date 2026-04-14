@@ -16,9 +16,9 @@
 
 <p align="center">
 
-<!-- <a href="YOUR_PORTFOLIO_URL" target="_blank">
+  <a href="https://portfolio-woad-three-26.vercel.app/" target="_blank">
   <img src="https://img.shields.io/badge/Portfolio-1E1E1E?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
-</a> -->
+</a> 
 
 <a href="mailto:aanshmalhotra49@gmail.com">
   <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
