@@ -135,7 +135,7 @@
 
 ---
 
-### DigiQ — Real-Time Digital Queue Management — MERN + Socket.IO
+### 🔢 DigiQ — Real-Time Digital Queue Management — MERN + Socket.IO
 
 *A full-stack SaaS platform replacing physical waiting lines with a live, event-driven queuing layer — built with scalability constraints in mind from day one.*
 
