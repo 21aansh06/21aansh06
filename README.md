@@ -135,16 +135,15 @@
 
 ---
 
-### 🔢 DigiQ — Smart Digital Queue System
+### DigiQ — Real-Time Digital Queue Management — MERN + Socket.IO
 
-*Real-time queue management platform with QR-based access*
+*A full-stack SaaS platform replacing physical waiting lines with a live, event-driven queuing layer — built with scalability constraints in mind from day one.*
 
 * Designed **dynamic wait-time algorithm** based on service durations and queue position
 * Built **real-time queue updates** for seamless user experience
-* Implemented **QR-based onboarding** → zero friction for customers
-* Enabled **city-based filtering** and efficient service management for organizations
+* OTP-Gated Queue Entry for ensuring user is really interested to avail service not hackers filling queue
 
-**Tech:** `React.js` `Node.js` `Express.js` `MongoDB` `REST API` `Tailwind CSS`
+**Tech:** `React.js` `Socket.IO` `Node.js` `Express.js` `MongoDB` `REST API` `Tailwind CSS`
 
 👉 [Live Demo](https://digi-q-ivory.vercel.app/)
 
