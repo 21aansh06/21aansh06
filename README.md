@@ -105,7 +105,37 @@
 
 ## 🚀 Featured Projects
 
+### 🔢 DigiQ — Real-Time B2B Queue Management SaaS
 
+* Built a real-time queue management SaaS platform where organizations (hospitals, banks, clinics) can
+create and manage service queues digitally, generate virtual tokens, and eliminate physical waiting lines
+through live queue orchestration..*
+
+* Customers can join queues remotely, track their live position, view estimated wait times, and receive instant status updates as organizations
+  manage queue progression through a dynamic dashboard.
+* Implemented Socket.io based real-time updates
+* Designed **dynamic wait-time algorithm** based on service durations and queue position
+**Tech:** `Next.js`, `TypeScript`, `Node.js`, `Express.js`, `MongoDB`, `Mongoose`, `Socket.io`, `Zustand`, `JWT`
+
+👉 [Live Demo](https://digi-q-on9h.vercel.app/)
+
+---
+
+### 💬 Chatify — Real-Time Scalable Chat Application 
+
+*Production-ready messaging system with anti-spam and high-performance data handling*
+
+* Engineered **2-layer Redis rate limiting** (global + per-conversation) to prevent spam at scale
+* Built **real-time messaging** using Socket.IO with presence tracking
+* Implemented **cursor-based pagination** for efficient loading of large chat histories
+* Optimized database performance using **MongoDB indexing**
+* Designed secure **OTP-based authentication** (Twilio + Email) with JWT
+
+**Tech:** `Node.js` `Express.js` `Socket.IO` `MongoDB` `Redis` `JWT` `Cloudinary`
+
+👉 [Live Demo](https://chatify-beta-five.vercel.app/)
+
+---
 ### 🏢 HireNode — AI-Powered Hiring Platform
 
 *Production-grade, microservices-based recruitment system*
@@ -122,35 +152,7 @@
 
 ---
 
-### 💬 Chatify — Real-Time Scalable Chat
 
-*Production-ready messaging system with anti-spam and high-performance data handling*
-
-* Engineered **2-layer Redis rate limiting** (global + per-conversation) to prevent spam at scale
-* Built **real-time messaging** using Socket.IO with presence tracking
-* Implemented **cursor-based pagination** for efficient loading of large chat histories
-* Optimized database performance using **MongoDB indexing**
-* Designed secure **OTP-based authentication** (Twilio + Email) with JWT
-
-**Tech:** `Node.js` `Express.js` `Socket.IO` `MongoDB` `Redis` `JWT` `Cloudinary`
-
-👉 [Live Demo](https://chatify-beta-five.vercel.app/)
-
----
-
-### 🔢 DigiQ — Real-Time Digital Queue Management
-
-*A full-stack SaaS platform replacing physical waiting lines with a live, event-driven queuing layer — built with scalability constraints in mind from day one.*
-
-* Designed **dynamic wait-time algorithm** based on service durations and queue position
-* Built **real-time queue updates** for seamless user experience
-* OTP-Gated Queue Entry for ensuring user is really interested to avail service not hackers filling queue
-
-**Tech:** `React.js` `Socket.IO` `Node.js` `Express.js` `MongoDB` `REST API` `Tailwind CSS`
-
-👉 [Live Demo](https://digi-q-on9h.vercel.app/)
-
----
 
 ## 🎯 Current Focus
 
