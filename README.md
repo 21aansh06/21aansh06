@@ -136,7 +136,7 @@ through live queue orchestration..*
 👉 [Live Demo](https://chatify-beta-five.vercel.app/)
 
 ---
-### 🏢 HireNode — AI-Powered Hiring Platform
+### 🏢 HireNode —AI-Powered Hiring Platform
 
 *Production-grade, microservices-based recruitment system*
 
