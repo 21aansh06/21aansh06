@@ -115,6 +115,7 @@ through live queue orchestration..*
   manage queue progression through a dynamic dashboard.
 * Implemented Socket.io based real-time updates
 * Designed **dynamic wait-time algorithm** based on service durations and queue position
+  
 **Tech:** `Next.js`, `TypeScript`, `Node.js`, `Express.js`, `MongoDB`, `Mongoose`, `Socket.io`, `Zustand`, `JWT`
 
 👉 [Live Demo](https://digi-q-on9h.vercel.app/)
@@ -125,13 +126,13 @@ through live queue orchestration..*
 
 *Production-ready messaging system with anti-spam and high-performance data handling*
 
-* Engineered **2-layer Redis rate limiting** (global + per-conversation) to prevent spam at scale
 * Built **real-time messaging** using Socket.IO with presence tracking
 * Implemented **cursor-based pagination** for efficient loading of large chat histories
+* Engineered **Redis-based multi-level rate limiting** with 30 messages/minute per user and 15 messages/10 seconds per user per conversation
 * Optimized database performance using **MongoDB indexing**
 * Designed secure **OTP-based authentication** (Twilio + Email) with JWT
 
-**Tech:** `Node.js` `Express.js` `Socket.IO` `MongoDB` `Redis` `JWT` `Cloudinary`
+**Tech:** `React.js` `Node.js` `Express.js` `Socket.IO` `MongoDB` `Redis` `JWT` `Zustand` `Cloudinary`
 
 👉 [Live Demo](https://chatify-beta-five.vercel.app/)
 
