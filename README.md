@@ -64,6 +64,7 @@
 **Tech:** `Next.js` `TypeScript` `Node.js` `Express.js` `PostgreSQL` `Prisma` `Qdrant` `Redis` `BullMQ` `OpenAI` `Gemini` `Clerk`
 
 👉 [Live Demo](https://chat-source.vercel.app/)
+
 ---
 
 ### 🔢 DigiQ — Real-Time B2B Queue Management SaaS
