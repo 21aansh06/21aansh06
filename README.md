@@ -51,6 +51,21 @@
 
 ## 🚀 Featured Projects
 
+### 📚 ChatSource — AI Knowledge Assistant
+
+*AI-powered workspace for understanding and exploring information from multiple sources*
+
+* Built a knowledge assistant where users can add **PDFs, text, websites, and YouTube videos** and interact with their sources through AI-powered conversations
+* Enables users to **ask questions across their sources and receive answers grounded in the content they provide**, with relevant citations for verifying the information
+* Added **source filtering** to let users choose which sources should be used when answering a question, giving them more control over the conversation
+* Implemented a **RAG pipeline with embeddings, multi-query retrieval, result fusion, and reranking** to retrieve relevant information before generating responses
+* Built **asynchronous source processing** with BullMQ and Redis for parsing, chunking, embedding, and indexing content without blocking the main application
+
+**Tech:** `Next.js` `TypeScript` `Node.js` `Express.js` `PostgreSQL` `Prisma` `Qdrant` `Redis` `BullMQ` `OpenAI` `Gemini` `Clerk`
+
+👉 [Live Demo](https://chat-source.vercel.app/)
+---
+
 ### 🔢 DigiQ — Real-Time B2B Queue Management SaaS
 
 * Built a real-time queue management SaaS platform where organizations (hospitals, banks, clinics) can
@@ -81,21 +96,6 @@ through live queue orchestration..*
 **Tech:** `React.js` `Node.js` `Express.js` `Socket.IO` `MongoDB` `Redis` `JWT` `Zustand` `Cloudinary`
 
 👉 [Live Demo](https://chatify-beta-five.vercel.app/)
-
----
-### 🏢 HireNode —AI-Powered Hiring Platform
-
-*Production-grade, microservices-based recruitment system*
-
-* Architected **event-driven microservices** (Auth, Users, Jobs, Payment, Util) for independent scaling
-* Implemented **Apache Kafka** for async communication → eliminated tight coupling & cascading failures
-* Integrated **Gemini AI** for resume analysis, role-fit scoring, and personalized career insights
-* Designed with **serverless PostgreSQL (Neon)** for efficient connection handling in distributed systems
-* Offloaded media handling using **Cloudinary** for optimized performance
-
-**Tech:** `Next.js` `TypeScript` `PostgreSQL` `Kafka` `Redis` `Cloudinary` `GenAI`
-
-👉 [View Repository](https://github.com/21aansh06/HireNode-Platform)
 
 ---
 
