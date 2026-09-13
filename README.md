@@ -108,11 +108,11 @@ through live queue orchestration..*
 const aansh = {
   building: "Production-grade microservices & real-time systems",
   exploring: [
-    "GenAI integrations in backend systems",
+    "GenAI integrations in systems",
     "RAG pipelines for domain-specific intelligence",
     "LLM-powered APIs & workflow automation"
   ],
-  goal: "Backend / Full Stack SDE role solving real-world scalability challenges",
+  goal: "GenAI / Full Stack SDE role solving real-world scalability challenges",
   mindset: "Code aligned with business impact, scalability, and long-term maintainability."
 };
 
@@ -174,7 +174,7 @@ const aansh = {
 <div align="center">
 
 ### 💼 Open to Opportunities  
-Full Stack / Backend SDE | Scalable Systems | Real-Time Applications  
+GenAI Full Stack / Backend SDE | Scalable Systems | Real-Time Applications  
 
 If your team values performance, scalability, and clean architecture — let’s talk.
 
